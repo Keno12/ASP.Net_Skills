@@ -1,0 +1,5 @@
+E:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ASP.Net_Skills.dll.config
+E:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ASP.Net_Skills.dll
+E:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ASP.Net_Skills.pdb
+E:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.dll
+E:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.pdb

@@ -58,9 +58,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="导出csv.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="导出csv.aspx.cs">
+      <DependentUpon>导出csv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="导出csv.aspx.designer.cs">
+      <DependentUpon>导出csv.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
