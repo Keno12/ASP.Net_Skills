@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataTableExample.aspx" />
     <Content Include="JS\jquery-3.1.1.js" />
     <Content Include="JS\jquery-3.1.1.min.js" />
     <Content Include="SaveFileDialog.aspx" />
@@ -64,6 +65,13 @@
     <Content Include="导出csv.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTableExample.aspx.cs">
+      <DependentUpon>DataTableExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataTableExample.aspx.designer.cs">
+      <DependentUpon>DataTableExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Entity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaveFileDialog.aspx.cs">
