@@ -10,22 +10,19 @@
 </head>
 <body>
     <button onclick="getdata()">下载数据</button>
+
     <script type="text/javascript">
         function getdata() {
-            $.ajax({
+            $('body').append("<iframe src = 'http://localhost:22519/SaveFileDialog.aspx' style='display:none'></iframe>")
 
-                dataType: 'HTML',
-                contentType: 'application/json;charset=utf-8',
-                url: "SaveFileDialog.aspx/GetData",
-                type: "get",
-                success: function () {
-
-                },
-                error: function (data) {
-                    console.log(data)
-                    alert(2);
-                }
-            });
+            //$.ajax({
+            //    dataType: 'HTML',
+            //    contentType: 'application/json;charset=utf-8',
+            //    url: "SaveFileDialog.aspx/GetData",
+            //    type: "get",
+            //    success: function () {},
+            //    error: function (data) {}
+            //});
 
         }
     </script>
