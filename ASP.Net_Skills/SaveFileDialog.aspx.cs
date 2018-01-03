@@ -23,7 +23,7 @@ namespace ASP.Net_Skills
         [ScriptMethod(ResponseFormat = ResponseFormat.Json, UseHttpGet = true)]
         public static void GetData()
         {
-            string filePath = "xxx.csv";
+            string filePath = DateTime.Now.ToString("yyyyMMddhhmmss") + ".csv";
             System.Web.HttpResponse response = System.Web.HttpContext.Current.Response;
             response.ClearContent();
             response.Clear();

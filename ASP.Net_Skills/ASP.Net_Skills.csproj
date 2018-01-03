@@ -61,6 +61,7 @@
     <Content Include="JS\jquery-3.1.1.js" />
     <Content Include="JS\jquery-3.1.1.min.js" />
     <Content Include="SaveFileDialog.aspx" />
+    <Content Include="ThreadDemo.aspx" />
     <Content Include="Web.config" />
     <Content Include="导出csv.aspx" />
   </ItemGroup>
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="SaveFileDialog.aspx.designer.cs">
       <DependentUpon>SaveFileDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadDemo.aspx.cs">
+      <DependentUpon>ThreadDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThreadDemo.aspx.designer.cs">
+      <DependentUpon>ThreadDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="导出csv.aspx.cs">
       <DependentUpon>导出csv.aspx</DependentUpon>
