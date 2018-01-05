@@ -6,14 +6,15 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
-    <script src="JS/jquery-3.1.1.min.js"></script>
+    <script src="../JS/jquery-3.1.1.min.js"></script>
 </head>
 <body>
     <button onclick="getdata()">下载数据</button>
 
     <script type="text/javascript">
         function getdata() {
-            $('body').append("<iframe src = 'http://localhost:22519/SaveFileDialog.aspx' style='display:none'></iframe>")
+            $('body').append("<iframe src = 'http://localhost:22519/导出csv/SaveFileDialog.aspx' style='display:none'></iframe>")
+
 
             //$.ajax({
             //    dataType: 'HTML',

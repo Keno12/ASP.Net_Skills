@@ -15,13 +15,10 @@ namespace ASP.Net_Skills
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             GetData();
         }
 
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json, UseHttpGet = true)]
-        public static void GetData()
+        private static void GetData()
         {
             string filePath = DateTime.Now.ToString("yyyyMMddhhmmss") + ".csv";
             System.Web.HttpResponse response = System.Web.HttpContext.Current.Response;
@@ -36,24 +33,16 @@ namespace ASP.Net_Skills
 
         private static string GetList()
         {
+            var users = ModelData.GetUsers();
+            StringBuilder csv = new StringBuilder();
 
-            List<User> users = new List<User>
-            {
-                new User{ Name="张三",Age=13},
-                new User{Name="李四", Age=14},
-                new User{Name="王五"},
-                new User{ Age=14},
-                new User{Name="dsf", Age=14},
-            };
-
-            var csv = new StringBuilder();
             csv.AppendLine("姓名,年龄");
+
             foreach (var item in users)
             {
                 csv.AppendLine(item.Name + "," + item.Age);
             }
             return csv.ToString();
-
         }
     }
 }

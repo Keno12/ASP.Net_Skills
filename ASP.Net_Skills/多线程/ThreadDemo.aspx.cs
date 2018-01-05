@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -11,8 +12,7 @@ namespace ASP.Net_Skills
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var time = DateTime.Now.ToString("yyyyMMddhhmmss");
-            var date = Convert.ToInt32(time);
+            //Thread.CurrentThread.ManagedThreadId;
         }
     }
 }
