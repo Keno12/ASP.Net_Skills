@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ASP.Net_Skills.Entity;
 using System.Linq;
 using System.Threading;
 using System.Web;
@@ -12,7 +13,36 @@ namespace ASP.Net_Skills
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Thread.CurrentThread.ManagedThreadId;
+            Print print = new Print();
+            Thread[] threads = new Thread[10];
+            for (int i = 0; i < 10; i++)
+            {
+                threads[i] = new Thread(new ThreadStart(print.PrintNumber));
+                threads[i].Name = i.ToString() + "号线程";
+            }
+
+            foreach (var item in threads)
+            {
+                item.Start();
+                Response.Write("=   ");
+            }
+        }
+
+    }
+
+    public class Print
+    {
+        public void PrintNumber()
+        {
+            lock (this)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    Console.Write(i);
+                }
+            }
+
         }
     }
+
 }

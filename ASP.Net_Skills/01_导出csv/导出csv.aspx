@@ -13,9 +13,7 @@
 
     <script type="text/javascript">
         function getdata() {
-            $('body').append("<iframe src = 'http://localhost:22519/导出csv/SaveFileDialog.aspx' style='display:none'></iframe>")
-
-
+            $('body').append("<iframe src = 'http://localhost:22519/01_导出csv/SaveFileDialog.aspx' style='display:none'></iframe>")
             //$.ajax({
             //    dataType: 'HTML',
             //    contentType: 'application/json;charset=utf-8',
