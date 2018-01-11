@@ -1,0 +1,15 @@
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDemo.dll.config
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDemo.dll
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDemo.pdb
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Bson.dll
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.dll
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.Core.dll
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Bson.pdb
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Bson.xml
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.pdb
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.xml
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.Core.pdb
+E:\github\ASP.Net_Skills\MongoDemo\bin\MongoDB.Driver.Core.xml
+E:\github\ASP.Net_Skills\MongoDemo\obj\Debug\MongoDemo.csprojResolveAssemblyReference.cache
+E:\github\ASP.Net_Skills\MongoDemo\obj\Debug\MongoDemo.dll
+E:\github\ASP.Net_Skills\MongoDemo\obj\Debug\MongoDemo.pdb
