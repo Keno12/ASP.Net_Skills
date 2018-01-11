@@ -81,6 +81,8 @@
     <Content Include="05_read_excel\index.aspx" />
     <Content Include="06_ajax_get\index1.aspx" />
     <Content Include="06_ajax_get\index2.aspx" />
+    <Content Include="07_IO\index.aspx" />
+    <Content Include="07_IO\index2.aspx" />
     <Content Include="JS\jquery-3.1.1.js" />
     <Content Include="JS\jquery-3.1.1.min.js" />
     <Content Include="01_导出csv\SaveFileDialog.aspx" />
@@ -119,6 +121,20 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="06_ajax_get\index2.aspx.designer.cs">
+      <DependentUpon>index2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="07_IO\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="07_IO\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="07_IO\index2.aspx.cs">
+      <DependentUpon>index2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="07_IO\index2.aspx.designer.cs">
       <DependentUpon>index2.aspx</DependentUpon>
     </Compile>
     <Compile Include="BasePage.cs">
@@ -165,6 +181,7 @@
       <Name>ASP.Net_Skills.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
