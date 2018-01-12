@@ -14,7 +14,8 @@ namespace MongoDemo
         protected void Page_Load(object sender, EventArgs e)
         {
             // MongoDB服务器 连接串
-            var client = new MongoClient("mongodb://host:port/27017");
+            var connectString = "mongodb://127.0.0.1:27017";
+            var client = new MongoClient(connectString);
             if (client != null)
             {
                 Response.Write("success");
