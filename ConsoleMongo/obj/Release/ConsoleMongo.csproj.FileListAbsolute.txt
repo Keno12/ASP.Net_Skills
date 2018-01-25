@@ -1,0 +1,1 @@
+E:\github\ASP.Net_Skills\ConsoleMongo\bin\Release\ConsoleMongo.exe.config
