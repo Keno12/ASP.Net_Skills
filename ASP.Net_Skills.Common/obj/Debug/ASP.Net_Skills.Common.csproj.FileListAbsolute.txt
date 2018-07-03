@@ -2,3 +2,9 @@ E:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.d
 E:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.pdb
 E:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.dll
 E:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.pdb
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.pdb
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csprojAssemblyReference.cache
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csproj.CoreCompileInputs.cache
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.pdb
