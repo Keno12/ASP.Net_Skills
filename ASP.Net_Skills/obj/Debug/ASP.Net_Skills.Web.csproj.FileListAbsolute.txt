@@ -38,3 +38,8 @@ F:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.Web.csproj.Core
 F:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.Web.csproj.CopyComplete
 F:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.dll
 F:\github\ASP.Net_Skills\ASP.Net_Skills\obj\Debug\ASP.Net_Skills.pdb
+F:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ServiceStack.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ServiceStack.Interfaces.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills\bin\ServiceStack.ServiceInterface.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills\bin\StackExchange.Redis.dll
+F:\github\ASP.Net_Skills\ASP.Net_Skills\bin\StackExchange.Redis.xml
