@@ -12,3 +12,12 @@ F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ServiceStack.dll
 F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ServiceStack.Interfaces.dll
 F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ServiceStack.ServiceInterface.dll
 F:\github\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csproj.CopyComplete
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.dll
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\ASP.Net_Skills.Common.pdb
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\StackExchange.Redis.dll
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\bin\Debug\StackExchange.Redis.xml
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csprojAssemblyReference.cache
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.csproj.CopyComplete
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.dll
+D:\BaiduNetdiskDownload\DemoProject\ASP.Net_Skills\ASP.Net_Skills.Common\obj\Debug\ASP.Net_Skills.Common.pdb
